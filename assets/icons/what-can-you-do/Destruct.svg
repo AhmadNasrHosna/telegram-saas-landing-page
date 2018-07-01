@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Destruct</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.427677763">
+        <g id="Telegram-Mac-App-Page" transform="translate(-1190.000000, -1342.000000)" fill="#6D7D90">
+            <g id="Why-Telegram" transform="translate(395.000000, 1073.000000)">
+                <g id="Features-Cols" transform="translate(0.000000, 145.000000)">
+                    <g id="Group-7-Copy-3" transform="translate(795.000000, 121.000000)">
+                        <g id="Destruct" transform="translate(0.000000, 3.000000)">
+                            <path d="M41.25,44 L41.25,49.5 L21.08425,49.5 L13.75,55 L13.75,49.5 L5.5,49.5 L5.5,24.75 L22,24.75 L22,19.25 L5.5,19.25 C2.46675,19.25 0,21.71675 0,24.75 L0,49.5 C0,52.53325 2.46675,55 5.5,55 L8.25,55 L8.25,66 L22.91575,55 L41.25,55 C44.28325,55 46.75,52.53325 46.75,49.5 L46.75,44 L41.25,44 Z" id="Fill-2818"></path>
+                            <path d="M46.75,5.5 C39.16825,5.5 33,11.66825 33,19.25 C33,26.83175 39.16825,33 46.75,33 C54.33175,33 60.5,26.83175 60.5,19.25 C60.5,11.66825 54.33175,5.5 46.75,5.5 M46.75,38.5 C36.135,38.5 27.5,29.865 27.5,19.25 C27.5,8.635 36.135,0 46.75,0 C57.365,0 66,8.635 66,19.25 C66,29.865 57.365,38.5 46.75,38.5" id="Fill-2819"></path>
+                            <polygon id="Fill-2820" points="55 22 44 22 44 8.25 49.5 8.25 49.5 16.5 55 16.5"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

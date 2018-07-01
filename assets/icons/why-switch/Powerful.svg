@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Powerful</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="89.980251%" y1="14.7207755%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0E88C2" offset="0%"></stop>
+            <stop stop-color="#2BA1D9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Telegram-Mac-App-Page" transform="translate(-925.000000, -2924.000000)" fill="url(#linearGradient-1)">
+            <g id="Switch-to-Telegram" transform="translate(406.000000, 2321.000000)">
+                <g id="Features-Cols-Copy" transform="translate(0.000000, 127.000000)">
+                    <g id="Group-7-Copy-13" transform="translate(400.000000, 476.000000)">
+                        <g id="Powerful" transform="translate(119.000000, 0.000000)">
+                            <path d="M27,6 C40.641,6 48,10.257 48,12 C48,13.743 40.641,18 27,18 C13.359,18 6,13.743 6,12 C6,10.257 13.359,6 27,6 L27,6 Z M33,53.694 C31.155,53.883 29.166,54 27,54 C13.359,54 6,49.743 6,48 L6,43.8 C11.208,46.566 19.122,48 27,48 C29.013,48 31.029,47.904 33,47.718 L33,41.694 C31.155,41.883 29.166,42 27,42 C13.359,42 6,37.743 6,36 L6,31.8 C11.208,34.566 19.122,36 27,36 C29.013,36 31.029,35.904 33,35.718 L33,29.694 C31.155,29.883 29.166,30 27,30 C13.359,30 6,25.743 6,24 L6,19.8 C11.208,22.566 19.122,24 27,24 C34.878,24 42.792,22.566 48,19.8 L48,24 L54,24 L54,12 C54,4.122 40.419,0 27,0 C13.581,0 0,4.122 0,12 L0,48 C0,55.878 13.581,60 27,60 C29.013,60 31.026,59.895 33,59.712 L33,53.694 Z" id="Fill-2531"></path>
+                            <polygon id="Fill-2532" points="54 36 59.142 48.858 72 48.858 60.876 58.248 66.855 72 54 63.498 41.142 72 47.124 58.248 36 48.858 48.855 48.858"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

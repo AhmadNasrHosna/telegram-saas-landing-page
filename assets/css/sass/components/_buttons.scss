@@ -1,0 +1,38 @@
+.btn {
+    background-color: $color-secondary;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.16);
+    transition: all 350ms ease;
+    transition-timing-function: cubic-bezier(0.05,1.8,1,1.57);
+    display: inline-block;
+    
+    &:hover {
+        -webkit-transform: translateY(-5px);
+        box-shadow: 1px 10px 16px rgba(0,0,0,0.12);
+
+    }
+}
+
+.btn--sm {
+    font-size: 13px;
+    padding: 9px 20px;
+    font-weight: $bold;
+}
+
+.btn--lg {
+    font-size: 17px;
+    padding: 12px 32px;
+    font-weight: $bold;
+}
+
+.btn--green {
+    background-color: $mouMeo;
+}
+
+.btn--blue {
+    background-color: $heroSubColor;
+}

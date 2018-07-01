@@ -1,0 +1,42 @@
+// Colors
+
+$color-primary-normal: #303740;
+$color-primary-light: lighten(#303740, 15%);
+$color-primary-dark: darken(#303740, 15%);
+
+$color-secondary: #6a7a8f;
+$color-secondary-light: lighten(#6a7a8f, 10%);
+$color-secondary-dark: darken(#6a7a8f, 15%);
+
+$mouMeo: #16db93;
+$heroSubColor: #2ba0d9;
+
+
+// Font Size: 
+
+$small: 12px;	
+$regular: 16px;	
+$large: 24px;
+$x-large: 32px;	
+$xx-large: 48px;	
+$xxx-large: 64px;	
+$xxxx-large: 96px;	
+
+
+// Font Weight: 
+
+$thin: 100;
+$light: 300;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$black: 900;
+
+
+// Font Family:
+
+$text-primary: 'Nunito', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$text-secondary: 'Arimo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$display: source-serif-pro, Georgia, "Times New Roman", Times, serif;
+$code: source-code-pro, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace

@@ -1,0 +1,477 @@
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto; }
+
+.flex-wrapper {
+  display: -webkit-flex;
+  display: flex; }
+
+.grid-wrapper {
+  display: flex; }
+
+.header {
+  padding: 0 0 100px; }
+  .header::before {
+    content: '';
+    display: block;
+    max-width: 1060px;
+    height: 1060px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -400px;
+    background: linear-gradient(45deg, transparent, rgba(43, 160, 217, 0.04), rgba(43, 160, 217, 0.14));
+    z-index: -1; }
+  .header .navbar .flex-wrapper {
+    justify-content: space-between;
+    align-items: center; }
+    @media (max-width: 991px) {
+      .header .navbar .flex-wrapper {
+        display: block;
+        padding: 30px 0; } }
+  .header .navbar .menu-toggle {
+    width: 25px;
+    direction: rtl;
+    cursor: pointer; }
+    .header .navbar .menu-toggle span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: #6a7a8f;
+      border-radius: 2px;
+      transition: all 300ms ease; }
+      .header .navbar .menu-toggle span:not(:last-child) {
+        margin-bottom: 5px; }
+      .header .navbar .menu-toggle span:first-child {
+        width: 20px; }
+      .header .navbar .menu-toggle span:last-child {
+        width: 15px; }
+    .header .navbar .menu-toggle:hover span:first-child, .header .navbar .menu-toggle:hover span:last-child {
+      width: 100%; }
+    @media (min-width: 992px) {
+      .header .navbar .menu-toggle {
+        display: none; } }
+    @media (max-width: 991px) {
+      .header .navbar .menu-toggle {
+        position: absolute;
+        top: 42px;
+        right: 0; } }
+  @media (max-width: 991px) {
+    .header .navbar .navbar__menu {
+      display: none; } }
+  .header .navbar .navbar__menu ul {
+    font-size: 0; }
+    @media (max-width: 991px) {
+      .header .navbar .navbar__menu ul {
+        padding: 8px 0px;
+        background: #f9f9f9;
+        margin-top: 30px;
+        border-radius: 8px;
+        box-shadow: 2px 15px 50px -5px rgba(0, 0, 0, 0.08); } }
+    .header .navbar .navbar__menu ul li {
+      display: inline-block; }
+      @media (max-width: 991px) {
+        .header .navbar .navbar__menu ul li {
+          display: block; } }
+      .header .navbar .navbar__menu ul li a {
+        display: block;
+        color: #303740;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 45px 25px;
+        position: relative; }
+        @media (max-width: 991px) {
+          .header .navbar .navbar__menu ul li a {
+            padding: 17px 25px; } }
+        .header .navbar .navbar__menu ul li a::before {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: 0;
+          /* Hover goes bottom */
+          left: 0;
+          background: linear-gradient(#fff, transparent);
+          z-index: -1;
+          width: 100%;
+          height: 0%;
+          opacity: 0;
+          transition: all 250ms ease; }
+        .header .navbar .navbar__menu ul li a:hover::before {
+          height: 100%;
+          opacity: 1; }
+  @media only screen and (max-width: 991px) {
+    .header .navbar .navbar__btns {
+      display: none; } }
+  .header .hero-intro {
+    margin-top: 100px; }
+    .header .hero-intro__title {
+      margin-bottom: 16px; }
+      .header .hero-intro__title span {
+        color: #2ba0d9; }
+    .header .hero-intro__description {
+      display: inline-block;
+      max-width: 550px;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 0; }
+    .header .hero-intro__btns {
+      margin: 35px 0 130px; }
+      .header .hero-intro__btns .btn:not(:last-child) {
+        margin-right: 15px; }
+      @media only screen and (max-width: 420px) {
+        .header .hero-intro__btns .btn {
+          margin-right: 0 !important; }
+          .header .hero-intro__btns .btn:not(:last-child) {
+            margin-bottom: 20px !important; } }
+    .header .hero-intro .hero-intro__img {
+      max-height: 420px;
+      overflow: hidden;
+      position: relative;
+      max-height: 420px; }
+      .header .hero-intro .hero-intro__img img {
+        max-width: 100%; }
+      .header .hero-intro .hero-intro__img::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(transparent, transparent, #FFF);
+        z-index: 1; }
+
+/*
+** Main Rules
+===============*/
+html {
+  /* Adjust font size */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6a7a8f; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  ul li {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+h1 {
+  font-size: 45px;
+  color: #303740;
+  font-weight: 800; }
+
+p {
+  color: #6a7a8f;
+  line-height: 1.7; }
+
+.text-center {
+  text-align: center; }
+
+::selection {
+  background: #6a7a8f;
+  color: #FFF; }
+
+img {
+  vertical-align: bottom; }
+
+img::selection {
+  background: transparent; }
+
+h2 {
+  color: #303740;
+  font-weight: 800; }
+
+h3 {
+  color: #303740;
+  font-size: 20px; }
+
+.section-head {
+  margin-bottom: 80px; }
+  .section-head h2 {
+    margin-bottom: 16px; }
+  .section-head h4 {
+    color: #8694a6;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 0px; }
+
+/*
+** What can you do with Telegram?
+==================================*/
+.features-section {
+  background: linear-gradient(transparent, #F5F5F5); }
+  .features-section .grid-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -60px; }
+    @media only screen and (max-width: 767px) {
+      .features-section .grid-wrapper {
+        flex-direction: column; } }
+    .features-section .grid-wrapper .feat {
+      flex: 0 1 30%;
+      display: -webkit-flex;
+      display: flex;
+      margin-bottom: 50px; }
+      .features-section .grid-wrapper .feat__icon {
+        padding-right: 25px;
+        align-self: flex-start; }
+      .features-section .grid-wrapper .feat__body h3 {
+        margin: 0; }
+      .features-section .grid-wrapper .feat__body p {
+        margin: 7px 0 0;
+        font-weight: 600; }
+  .features-section .hero-video {
+    position: relative; }
+    .features-section .hero-video .video__thumb {
+      border-radius: 8px;
+      position: relative;
+      bottom: -150px;
+      max-width: 100%;
+      box-shadow: 2px 15px 50px -5px rgba(0, 0, 0, 0.16); }
+
+/*
+** Why switch to Telegram?
+===========================*/
+.specs-section {
+  padding: 250px 0 100px; }
+  .specs-section .grid-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -60px; }
+    @media only screen and (max-width: 767px) {
+      .specs-section .grid-wrapper {
+        display: block; } }
+    .specs-section .grid-wrapper .spec {
+      flex: 0 1 30%;
+      margin-bottom: 50px; }
+      @media only screen and (max-width: 767px) {
+        .specs-section .grid-wrapper .spec:not(:last-child) {
+          margin-bottom: 70px; } }
+      .specs-section .grid-wrapper .spec__icon {
+        margin-bottom: 30px;
+        width: 60px;
+        height: 60px; }
+      .specs-section .grid-wrapper .spec__body h3 {
+        margin: 0; }
+      .specs-section .grid-wrapper .spec__body p {
+        margin: 7px 0 0;
+        font-weight: 600; }
+
+/*
+** What Telegram Thinks
+===========================*/
+.news-section {
+  background: linear-gradient(#F5F5F5, transparent);
+  padding: 50px 0 100px; }
+  .news-section .flex-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -60px; }
+    @media only screen and (max-width: 767px) {
+      .news-section .flex-wrapper {
+        display: block; } }
+    .news-section .flex-wrapper .post {
+      border-radius: 8px;
+      width: 31.5%;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16); }
+      @media only screen and (max-width: 767px) {
+        .news-section .flex-wrapper .post {
+          width: auto;
+          margin-bottom: 30px; } }
+      .news-section .flex-wrapper .post img {
+        display: block;
+        width: 100%; }
+      .news-section .flex-wrapper .post .post-body {
+        padding: 17px 30px; }
+        .news-section .flex-wrapper .post .post-body__time {
+          margin: 0; }
+          .news-section .flex-wrapper .post .post-body__time time {
+            font-size: 13px;
+            font-weight: 600; }
+        .news-section .flex-wrapper .post .post-body__head {
+          margin-top: 9px;
+          font-size: 18px;
+          font-weight: 700; }
+        .news-section .flex-wrapper .post .post-body__share-btns {
+          padding: 10px 0 5px;
+          display: -webkit-flex;
+          display: flex;
+          flex-wrap: wrap; }
+          .news-section .flex-wrapper .post .post-body__share-btns a {
+            color: #6a7a8f;
+            font-size: 13px;
+            font-weight: 700;
+            position: relative; }
+            .news-section .flex-wrapper .post .post-body__share-btns a:hover {
+              color: #8694a6; }
+            .news-section .flex-wrapper .post .post-body__share-btns a span::after {
+              content: "";
+              display: inline-block;
+              position: absolute;
+              bottom: 0;
+              left: 32px;
+              width: 0;
+              opacity: 0;
+              border-bottom: 2px solid #6a7a8f;
+              transition: all 300ms ease-in-out; }
+            .news-section .flex-wrapper .post .post-body__share-btns a:hover span::after {
+              border-bottom: 2px solid #8694a6;
+              width: calc(100% - 32px);
+              opacity: 1; }
+            .news-section .flex-wrapper .post .post-body__share-btns a:not(:last-child) {
+              margin-right: 25px; }
+            .news-section .flex-wrapper .post .post-body__share-btns a i {
+              color: #9ea8b5;
+              font-size: 19px;
+              margin-right: 13px;
+              vertical-align: middle; }
+            .news-section .flex-wrapper .post .post-body__share-btns a .twitter {
+              font-size: 13px;
+              padding: 3px 4px;
+              background: #9ea8b5;
+              color: #fff;
+              border-radius: 50%; }
+
+/*
+** Telegram Featured on
+===========================*/
+.feauted-on {
+  padding: 50px 0 100px; }
+  .feauted-on .section-head {
+    margin-bottom: 50px; }
+  .feauted-on img {
+    margin-right: 50px;
+    transition: all 300ms ease; }
+    .feauted-on img:hover {
+      opacity: 0.7; }
+    @media only screen and (max-width: 767px) {
+      .feauted-on img {
+        padding: 0 25px;
+        margin-right: 0px;
+        margin-bottom: 40px; } }
+
+/*
+** Footer
+===========================*/
+.footer {
+  padding: 90px 0 0;
+  background: linear-gradient(to top left, #f4f4f4, transparent); }
+  .footer .flex-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 90px; }
+    @media only screen and (max-width: 767px) {
+      .footer .flex-wrapper {
+        display: block; } }
+    .footer .flex-wrapper .flex-item {
+      font-weight: 600;
+      width: calc((100% - 420px) / 3); }
+      .footer .flex-wrapper .flex-item:first-child {
+        width: 320px;
+        margin-right: 100px; }
+        .footer .flex-wrapper .flex-item:first-child p {
+          font-size: 15px; }
+      @media only screen and (max-width: 991px) {
+        .footer .flex-wrapper .flex-item {
+          width: 100%;
+          text-align: center; }
+          .footer .flex-wrapper .flex-item:not(:last-child) {
+            margin-bottom: 50px; }
+          .footer .flex-wrapper .flex-item:first-child {
+            width: 100%;
+            text-align: center;
+            margin-right: 0 !important;
+            margin-bottom: 20px; } }
+      @media only screen and (max-width: 767px) {
+        .footer .flex-wrapper .flex-item:first-child {
+          margin-bottom: 50px; } }
+      .footer .flex-wrapper .flex-item h4 {
+        color: #303740;
+        margin-bottom: 35px; }
+      .footer .flex-wrapper .flex-item ul li {
+        display: block;
+        font-size: 14px;
+        transition: all 200ms ease-in-out; }
+        .footer .flex-wrapper .flex-item ul li:not(:last-child) {
+          margin-bottom: 20px; }
+        .footer .flex-wrapper .flex-item ul li:hover {
+          color: #8694a6; }
+  .footer .copyrights {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-top: 1px solid #ededed;
+    font-size: 14px;
+    font-weight: 600; }
+    .footer .copyrights ul li {
+      display: inline-block;
+      transition: all 200ms ease-in-out; }
+      .footer .copyrights ul li:not(:last-child) {
+        margin-right: 35px; }
+      .footer .copyrights ul li:hover {
+        color: #8694a6; }
+      @media only screen and (max-width: 767px) {
+        .footer .copyrights ul li:not(:last-child) {
+          margin-right: 10px; } }
+
+.btn {
+  background-color: #6a7a8f;
+  color: #fff;
+  border-radius: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.16);
+  transition: all 350ms ease;
+  transition-timing-function: cubic-bezier(0.05, 1.8, 1, 1.57);
+  display: inline-block; }
+  .btn:hover {
+    -webkit-transform: translateY(-5px);
+    box-shadow: 1px 10px 16px rgba(0, 0, 0, 0.12); }
+
+.btn--sm {
+  font-size: 13px;
+  padding: 9px 20px;
+  font-weight: 700; }
+
+.btn--lg {
+  font-size: 17px;
+  padding: 12px 32px;
+  font-weight: 700; }
+
+.btn--green {
+  background-color: #16db93; }
+
+.btn--blue {
+  background-color: #2ba0d9; }
+
+/*# sourceMappingURL=landing-page.css.map */

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="53px" viewBox="0 0 63 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>We Can do It! </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="89.980251%" y1="14.7207755%" x2="2.59310114%" y2="97.5423757%" id="linearGradient-1">
+            <stop stop-color="#F96034" offset="0%"></stop>
+            <stop stop-color="#EA5623" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Telegram-Mac-App-Page" transform="translate(-1330.000000, -2928.000000)" fill="url(#linearGradient-1)">
+            <g id="Switch-to-Telegram" transform="translate(406.000000, 2321.000000)">
+                <g id="Features-Cols-Copy" transform="translate(0.000000, 127.000000)">
+                    <g id="Group-7-Copy-12" transform="translate(800.000000, 479.000000)">
+                        <g id="We-Can-do-It!-" transform="translate(124.000000, 0.000000)">
+                            <path d="M48,36.1576 L18,28.6576 L18,15.3436 L48,7.8436 L48,36.1576 Z M6,16.0006 L12,16.0006 L12,28.0006 L6,28.0006 L6,16.0006 Z M52.845,1.6366 C52.116,1.0636 51.165,0.8626 50.271,1.0906 L14.631,10.0006 L6,10.0006 C2.691,10.0006 0,12.6886 0,16.0006 L0,28.0006 C0,31.3066 2.691,34.0006 6,34.0006 L12,34.0006 L12,40.0006 C12,40.6516 12.21,41.2816 12.6,41.8006 L21.6,53.8006 L26.4,50.2006 L18,38.9986 L18,34.8436 L50.271,42.9106 C50.511,42.9706 50.757,43.0006 51,43.0006 C51.663,43.0006 52.314,42.7816 52.845,42.3646 C53.574,41.7946 54,40.9246 54,40.0006 L54,4.0006 C54,3.0766 53.574,2.2036 52.845,1.6366 L52.845,1.6366 Z" id="Fill-1989"></path>
+                            <path d="M57,13.5538 L57,30.4468 C60.486,29.2048 63,25.9048 63,21.9988 C63,18.0958 60.486,14.7958 57,13.5538" id="Fill-1990"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

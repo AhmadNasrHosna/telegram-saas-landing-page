@@ -1,0 +1,182 @@
+.header {
+    padding: 0 0 100px;
+    &::before {
+        content: '';
+        display: block;
+        max-width: 1060px;
+        height: 1060px;
+        border-radius: 50%;
+        position: absolute;
+        // center
+        left: 0;
+        right: 0;
+        margin: auto;
+        // center
+        top: -400px;
+        background: linear-gradient(45deg, transparent, rgba($heroSubColor, 0.04), rgba($heroSubColor, 0.14));
+        z-index: -1;
+    }
+    .navbar {
+        .flex-wrapper {
+            justify-content: space-between;
+            align-items: center;
+            @media (max-width: 991px){
+                display: block;
+                padding: 30px 0;
+            }
+        }
+
+        .menu-toggle {
+            width: 25px;
+            direction: rtl;
+            cursor: pointer;
+            span {
+                display: block;
+                width: 100%;
+                height: 2px;
+                background: $color-secondary;
+                border-radius: 2px;
+                transition: all 300ms ease;
+                &:not(:last-child) {
+                    margin-bottom: 5px;
+                }
+                &:first-child {
+                    width: 20px;
+                }
+                &:last-child {
+                    width: 15px;
+                }
+            }
+            &:hover span:first-child,
+            &:hover span:last-child {
+                width: 100%;
+            }
+            
+
+            @media (min-width: 992px){
+                display: none;
+            }
+
+            @media (max-width: 991px){
+                position: absolute;
+                top: 42px;
+                right: 0;
+            }
+        }
+
+        .navbar__menu {
+            @media (max-width: 991px){
+                display: none;
+            }
+            ul {
+                font-size: 0;
+                @media (max-width: 991px){
+                    padding: 8px 0px;
+                    background: #f9f9f9;
+                    margin-top: 30px;
+                    border-radius: 8px;
+                    box-shadow: 2px 15px 50px -5px rgba(0, 0, 0, 0.08);
+                } 
+                li {
+                    display: inline-block;
+                    @media (max-width: 991px){
+                        display: block;
+                    }  
+
+                    a {
+                        display: block;
+                        color: $color-primary-normal;
+                        font-weight: $bold;
+                        font-size: 16px;
+                        padding: 45px 25px;
+                        position: relative;
+                        @media (max-width: 991px){
+                            padding: 17px 25px;
+                        }  
+
+                        &::before {
+                            content:"";
+                            display: block;
+                            position: absolute;
+                            bottom: 0; /* Hover goes bottom */
+                            left: 0; 
+                            background: linear-gradient(#fff, transparent);
+                            z-index: -1;
+                            width: 100%;
+                            height: 0%;
+                            opacity: 0;
+                            transition: all 250ms ease;
+                          }
+
+                        &:hover::before {
+                            height: 100%;
+                            opacity: 1;
+                        }
+
+                        }
+                }
+            }                          
+        }
+        .navbar__btns {
+            @include media-allsm {
+                display: none;
+            }
+        }
+    }
+
+    .hero-intro {
+        margin-top: 100px;
+        &__title {
+            margin-bottom: 16px;
+            span {
+                color: $heroSubColor;
+            }
+        }
+        &__description {
+            display: inline-block;
+            max-width: 550px;
+            font-weight: $semi-bold;
+            font-size: 20px;
+            margin: 0;
+
+        }  
+        &__btns {
+            margin: 35px 0 130px; 
+            .btn {
+                &:not(:last-child) {
+                    margin-right: 15px;
+                }
+                @include media-xs {
+                    margin-right: 0 !important;
+                    &:not(:last-child){
+                        margin-bottom: 20px !important;  
+                    }
+                }
+            }
+            
+                
+
+        }  
+        .hero-intro__img {
+            max-height: 420px;
+            overflow: hidden;  
+            position: relative;
+            max-height: 420px;
+            img {
+                max-width: 100%; 
+                // (max-) needed to responsive and not to make the img strech and cover it's parent width.
+            }
+            &::before {
+                content: '';
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: linear-gradient( transparent, transparent,#FFF);
+                z-index: 1;
+            }
+
+
+        }                        
+    }
+}

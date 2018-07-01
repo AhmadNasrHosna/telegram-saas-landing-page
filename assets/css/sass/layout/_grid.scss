@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto
+}
+
+.flex-wrapper {
+    @include flex;
+}
+
+.grid-wrapper {
+    display: flex
+}

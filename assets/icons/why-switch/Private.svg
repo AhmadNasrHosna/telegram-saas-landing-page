@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="54px" viewBox="0 0 63 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Private</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="88.1884072%" y1="16.4190041%" x2="5.39638735%" y2="94.8855474%" id="linearGradient-1">
+            <stop stop-color="#1D9996" offset="0%"></stop>
+            <stop stop-color="#28C0C8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Telegram-Mac-App-Page" transform="translate(-530.000000, -2454.000000)" fill="url(#linearGradient-1)">
+            <g id="Switch-to-Telegram" transform="translate(406.000000, 2321.000000)">
+                <g id="Features-Cols-Copy" transform="translate(0.000000, 127.000000)">
+                    <g id="Group-7" transform="translate(0.000000, 6.000000)">
+                        <g id="Private" transform="translate(123.000000, 0.000000)">
+                            <path d="M10.879,48 L34,48 C47.233,48 58,38.58 58,27 C58,15.42 47.233,6 34,6 C20.767,6 10,15.42 10,27 C10,31.611 11.704,36 14.926,39.696 C15.934,40.854 15.907,42.585 14.863,43.71 L10.879,48 Z M34,54 L4,54 C2.806,54 1.726,53.292 1.249,52.2 C0.772,51.105 0.991,49.833 1.801,48.96 L8.719,41.508 C5.623,37.176 4,32.205 4,27 C4,12.114 17.458,0 34,0 C50.542,0 64,12.114 64,27 C64,41.886 50.542,54 34,54 L34,54 Z" id="Fill-1297"></path>
+                            <path d="M20.2657,30 C22.5817,35.292 27.8497,39 33.9997,39 C40.1497,39 45.4177,35.292 47.7337,30 L20.2657,30 Z" id="Fill-1298"></path>
+                            <path d="M28.75,18.75 C28.75,20.82 27.07,22.5 25,22.5 C22.93,22.5 21.25,20.82 21.25,18.75 C21.25,16.68 22.93,15 25,15 C27.07,15 28.75,16.68 28.75,18.75" id="Fill-1299"></path>
+                            <path d="M46.75,18.75 C46.75,20.82 45.07,22.5 43,22.5 C40.93,22.5 39.25,20.82 39.25,18.75 C39.25,16.68 40.93,15 43,15 C45.07,15 46.75,16.68 46.75,18.75" id="Fill-1300"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
