@@ -1,11 +1,6 @@
-# Pricing Table
+# Telegram | Saas Landing Pages
 
-• This page created on May 14, 2018.
+- Telegram app landing page UI redesigned by [Salah Elimam](https://dribbble.com/shots/3778673-Dory-Telegram-Saas-Landing-Pages)
+- Implemented by me into an interactive web page using (HTML/CSS/JavaScript).
 
-It's a part of my Front-end web development daily practice. 
-
-• UI Design from [dribbble](https://dribbble.com/shots/3936771-Telegram-Landing-Page/attachments/898122), I got it in order to implement it in HTML & CSS.
-
-## HTML/CSS Result - [Live Preview](#)
-
-![](assets/img\frame-generic.png)
+View on Netlify: https://telegram-salah-elimam.netlify.app/
