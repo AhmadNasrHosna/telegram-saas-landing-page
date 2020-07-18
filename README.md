@@ -5,4 +5,4 @@
 
 View on Netlify: https://telegram-salah-elimam.netlify.app/
 
-![](frame-generic.png)
+![](assets/frame-generic.png)
